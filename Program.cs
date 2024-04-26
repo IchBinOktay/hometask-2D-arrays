@@ -332,35 +332,35 @@
 
 
 
-int[,] arr = {
-   {1, 1, 0, 0, 1, 1},
-   {1, 1, 0, 0, 1, 1},
-   {1, 1, 0, 0, 1, 1},
-   {1, 1, 0, 0, 1, 1}
-};
+//int[,] arr = {
+//   {1, 1, 0, 0, 1, 1},
+//   {1, 1, 0, 0, 1, 1},
+//   {1, 1, 0, 0, 1, 1},
+//   {1, 1, 0, 0, 1, 1}
+//};
 
-int shift = 3;
-for (int i = 0; i<arr.GetLength(0); i++)
-{
-    for (int j = arr.GetLength(1)-1; j>= 0; j--)
-    {
-        if (j - shift >= 0)
-        {
-            arr[i, j] = arr[i, j - shift];
-        }
-        else
-            arr[i, j] = 0;
-    }
-}
+//int shift = 3;
+//for (int i = 0; i<arr.GetLength(0); i++)
+//{
+//    for (int j = arr.GetLength(1)-1; j>= 0; j--)
+//    {
+//        if (j - shift >= 0)
+//        {
+//            arr[i, j] = arr[i, j - shift];
+//        }
+//        else
+//            arr[i, j] = 0;
+//    }
+//}
 
-for (int i = 0;i<arr.GetLength(0); i++)
-{
-    for(int j=0; j<arr.GetLength(1); j++)
-    {
-        Console.Write($"{arr[i,j]}");
-    }
-    Console.WriteLine();
-}
+//for (int i = 0;i<arr.GetLength(0); i++)
+//{
+//    for(int j=0; j<arr.GetLength(1); j++)
+//    {
+//        Console.Write($"{arr[i,j]}");
+//    }
+//    Console.WriteLine();
+//}
 
 
 
